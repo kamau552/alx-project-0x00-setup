@@ -1,4 +1,4 @@
-import Card from '@/components/Card';
+import Card from '@/components/card';
 const Landing: React.FC = () => {
   return (
     <div>
@@ -6,6 +6,6 @@ const Landing: React.FC = () => {
       <Card />
     </div>
   );
-};
+}
 
 export default Landing;

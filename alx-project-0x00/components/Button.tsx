@@ -1,6 +1,8 @@
 import React from 'react'
 
-type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement>;
+interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  children?: React.ReactNode;
+}
 
 function Button(props: ButtonProps) {
   return (
